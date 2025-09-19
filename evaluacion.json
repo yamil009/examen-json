@@ -1,0 +1,83 @@
+{
+  "evaluacion": {
+    "version": 1,
+    "titulo": "Prueba",
+    "tiempo_minutos": 1,
+    "preguntas": [
+      {
+        "id": 1,
+        "tipo": "multiple",
+        "pregunta": "¿Qué es la recursión en programación y cuándo se recomienda usarla?",
+        "opciones": [
+          "Un proceso en el que una función se llama a sí misma. Se recomienda usarla cuando el problema se puede dividir en subproblemas similares.",
+          "Un proceso en el que una función devuelve un valor al final de su ejecución. Se usa cuando el problema no se puede resolver sin recurrir a bucles.",
+          "Un proceso en el que las variables son referenciadas por punteros. Se recomienda cuando se necesitan cálculos muy rápidos.",
+          "Un proceso donde los datos se almacenan en una estructura de árbol. Se usa cuando el programa necesita manejar grandes cantidades de información no estructurada."
+        ],
+        "respuesta_correcta": "B",
+        "imagen": "C:/Users/Yamil/Imágenes/cube-abstract-digital-art-uhdpaper.com-4K-4.324.jpg",
+        "puntuacion": 20
+      },
+      {
+        "id": 2,
+        "tipo": "abierta",
+        "pregunta": "Cual es el puerto por defecto de MySql",
+        "respuesta_correcta": "3306",
+        "puntuacion": 20
+      },
+      {
+        "id": 3,
+        "tipo": "multiple",
+        "pregunta": "En el patrón de diseño Observer, ¿cuál es la principal ventaja de usar interfaces en lugar de clases concretas?",
+        "opciones": [
+          "Permite múltiple herencia y reduce el acoplamiento entre el sujeto y los observadores",
+          "Mejora el rendimiento al evitar la creación de objetos innecesarios",
+          "Facilita la serialización de objetos y el paso por referencia",
+          "Permite el polimorfismo y hace el código más testeable y mantenible"
+        ],
+        "respuesta_correcta": "D",
+        "puntuacion": 20
+      },
+      {
+        "id": 4,
+        "tipo": "abierta",
+        "pregunta": "¿Qué nivel de aislamiento de transacciones previene el fenómeno de 'phantom reads' pero permite 'non-repeatable reads'?",
+        "respuesta_correcta": "REPEATABLE READ",
+        "puntuacion": 20
+      },
+      {
+        "id": 5,
+        "tipo": "multiple",
+        "pregunta": "En programación funcional, ¿qué característica distingue a una función pura?",
+        "opciones": [
+          "Siempre retorna el mismo resultado para los mismos parámetros de entrada y no produce efectos secundarios",
+          "Puede modificar variables globales pero siempre retorna un valor",
+          "Utiliza recursión en lugar de bucles iterativos",
+          "No utiliza parámetros y obtiene todos sus datos del contexto global"
+        ],
+        "respuesta_correcta": "A",
+        "puntuacion": 20
+      },
+      {
+        "id": 6,
+        "tipo": "abierta",
+        "pregunta": "¿Cómo se llama el algoritmo de consenso utilizado por Bitcoin para validar transacciones?",
+        "respuesta_correcta": "Proof of Work",
+        "puntuacion": 20
+      },
+      {
+        "id": 7,
+        "tipo": "multiple",
+        "pregunta": "En el contexto de microservicios, ¿cuál es la principal diferencia entre el patrón Saga y las transacciones ACID tradicionales?",
+        "opciones": [
+          "Saga garantiza atomicidad total mientras que ACID permite rollbacks parciales",
+          "Saga maneja transacciones distribuidas con compensación mientras que ACID funciona en un solo servicio/base de datos",
+          "Saga es síncrono y ACID es asíncrono por naturaleza",
+          "Saga requiere menos recursos de memoria que las transacciones ACID"
+        ],
+        "respuesta_correcta": "B",
+        "puntuacion": 20
+      }
+    ]
+  }
+}
